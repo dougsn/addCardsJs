@@ -326,3 +326,20 @@ class CardCarousel extends DraggingEvent {
 }
 
 const carousel = new CardCarousel(cardsContainer);
+
+
+// @@ Captura dos cards
+
+let card1 = document.getElementById('3')
+
+card1.addEventListener('click', (e) => {
+  e.preventDefault()
+
+  let footer = document.getElementById('footer')
+  let imagemCard = document.createElement('img')
+
+  imagemCard.setAttribute('src', '/img/Yezzus.png')
+  footer.appendChild(imagemCard)
+
+
+})
