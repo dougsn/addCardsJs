@@ -1,79 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', 'sans-serif';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "sans-serif";
 }
 
 a {
-    text-decoration: none;
-    color: #333;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
 }
 
-ul{
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    gap: 40px;
-    padding: 20px;
+a:hover {
+  color: #bcd5e9;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  padding: 20px;
 }
 
 body {
-   background-color: #4c7a9f;
+    background: rgb(116,116,217);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 50vh;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 70vh;
+  justify-content: center;
+  background: rgb(51 51 51 / 80%);
+  align-items: center;
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
 }
 
-
 legend {
-    font-size: 30px;
-    font-weight: 700;
-    text-align: center;
-    color: #FFF;
-    margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
 }
 
 input {
-    border: none; 
-    border-radius: 5px; 
-    background-color: #FFF; 
-    padding: 10px 10px; 
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 10px 10px;
 }
 
 input:focus {
-    outline: 0;
+  outline: 0;
 }
 
-
 .divForm {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
 }
 
 .button {
-    padding: 10px 40px;
-    margin-top: 20px;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
+  padding: 10px 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
 }
 
 .containerCards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 40px;
+  justify-content: center;
 }
 
 .card {
-    border: 0px;
+  border: 0px;
 }
