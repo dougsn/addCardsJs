@@ -343,3 +343,56 @@ card1.addEventListener('click', (e) => {
 
 
 })
+let card2 = document.getElementById('4')
+
+card2.addEventListener('click', (e) => {
+  e.preventDefault()
+
+  let footer = document.getElementById('footer')
+  let imagemCard = document.createElement('img')
+
+  imagemCard.setAttribute('src', '/img/donda.png')
+  footer.appendChild(imagemCard)
+
+
+})
+let card3 = document.getElementById('5')
+
+card3.addEventListener('click', (e) => {
+  e.preventDefault()
+
+  let footer = document.getElementById('footer')
+  let imagemCard = document.createElement('img')
+
+  imagemCard.setAttribute('src', '/img/kanyewest.png')
+  footer.appendChild(imagemCard)
+
+
+})
+
+let card4 = document.getElementById('1')
+
+card4.addEventListener('click', (e) => {
+  e.preventDefault()
+
+  let footer = document.getElementById('footer')
+  let imagemCard = document.createElement('img')
+
+  imagemCard.setAttribute('src', '/img/kanye.png')
+  footer.appendChild(imagemCard)
+
+
+})
+let card5 = document.getElementById('2')
+
+card5.addEventListener('click', (e) => {
+  e.preventDefault()
+
+  let footer = document.getElementById('footer')
+  let imagemCard = document.createElement('img')
+
+  imagemCard.setAttribute('src', '/img/kid.png')
+  footer.appendChild(imagemCard)
+
+
+})
