@@ -327,72 +327,61 @@ class CardCarousel extends DraggingEvent {
 
 const carousel = new CardCarousel(cardsContainer);
 
-
 // @@ Captura dos cards
 
-let card1 = document.getElementById('3')
+let card1 = document.getElementById("3");
 
-card1.addEventListener('click', (e) => {
-  e.preventDefault()
+card1.addEventListener("click", (e) => {
+  e.preventDefault();
 
-  let footer = document.getElementById('footer')
-  let imagemCard = document.createElement('img')
+  let footer = document.getElementById("footer");
+  let imagemCard = document.createElement("img");
 
-  imagemCard.setAttribute('src', '/img/Yezzus.png')
-  footer.appendChild(imagemCard)
+  imagemCard.setAttribute("src", "/img/Yezzus.png");
+  footer.appendChild(imagemCard);
+});
+let card2 = document.getElementById("4");
 
+card2.addEventListener("click", (e) => {
+  e.preventDefault();
 
-})
-let card2 = document.getElementById('4')
+  let footer = document.getElementById("footer");
+  let imagemCard = document.createElement("img");
 
-card2.addEventListener('click', (e) => {
-  e.preventDefault()
+  imagemCard.setAttribute("src", "/img/donda.png");
+  footer.appendChild(imagemCard);
+});
+let card3 = document.getElementById("5");
 
-  let footer = document.getElementById('footer')
-  let imagemCard = document.createElement('img')
+card3.addEventListener("click", (e) => {
+  e.preventDefault();
 
-  imagemCard.setAttribute('src', '/img/donda.png')
-  footer.appendChild(imagemCard)
+  let footer = document.getElementById("footer");
+  let imagemCard = document.createElement("img");
 
+  imagemCard.setAttribute("src", "/img/kanyewest.png");
+  footer.appendChild(imagemCard);
+});
 
-})
-let card3 = document.getElementById('5')
+let card4 = document.getElementById("1");
 
-card3.addEventListener('click', (e) => {
-  e.preventDefault()
+card4.addEventListener("click", (e) => {
+  e.preventDefault();
 
-  let footer = document.getElementById('footer')
-  let imagemCard = document.createElement('img')
+  let footer = document.getElementById("footer");
+  let imagemCard = document.createElement("img");
 
-  imagemCard.setAttribute('src', '/img/kanyewest.png')
-  footer.appendChild(imagemCard)
+  imagemCard.setAttribute("src", "/img/kanye.png");
+  footer.appendChild(imagemCard);
+});
+let card5 = document.getElementById("2");
 
+card5.addEventListener("click", (e) => {
+  e.preventDefault();
 
-})
+  let footer = document.getElementById("footer");
+  let imagemCard = document.createElement("img");
 
-let card4 = document.getElementById('1')
-
-card4.addEventListener('click', (e) => {
-  e.preventDefault()
-
-  let footer = document.getElementById('footer')
-  let imagemCard = document.createElement('img')
-
-  imagemCard.setAttribute('src', '/img/kanye.png')
-  footer.appendChild(imagemCard)
-
-
-})
-let card5 = document.getElementById('2')
-
-card5.addEventListener('click', (e) => {
-  e.preventDefault()
-
-  let footer = document.getElementById('footer')
-  let imagemCard = document.createElement('img')
-
-  imagemCard.setAttribute('src', '/img/kid.png')
-  footer.appendChild(imagemCard)
-
-
-})
+  imagemCard.setAttribute("src", "/img/kid.png");
+  footer.appendChild(imagemCard);
+});
