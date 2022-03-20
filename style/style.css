@@ -26,7 +26,7 @@ ul {
 }
 
 body {
-    background: rgb(116,116,217);
+  background: rgb(116, 116, 217);
 }
 
 main {
@@ -39,12 +39,12 @@ form {
   display: flex;
   flex-direction: column;
   width: 400px;
-  height: 70vh;
+  height: 600px;
   justify-content: center;
   background: rgb(51 51 51 / 80%);
   align-items: center;
   border-radius: 20px;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(3px);
 }
 
 legend {
@@ -94,22 +94,72 @@ input:focus {
   border: 0px;
 }
 
-@media only screen and (max-width:900px) {
-
+@media only screen and (max-width: 900px) {
   form {
-  height: 50vh;
-	padding: 0px 30px
+    padding: 0px 30px;
+    height: 500px;
   }
 
   input {
-    font-size: 12px
+    font-size: 12px;
   }
 
-  
   legend {
     font-size: 20px;
   }
+}
 
+@media only screen and (max-width: 500px) {
+  legend {
+    font-size: 16px;
+  }
 
+  input {
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 5px 10px;
+    width: 200px;
+  }
 
+  .divForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    align-items: center;
+  }
+
+  form {
+    width: 300px;
+    padding: 0px 0px;
+    height: 400px;
+  }
+
+  .card {
+    width: 20rem !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .card {
+    width: 15rem !important;
+  }
+
+  form {
+    width: 250px;
+    padding: 0px 0px;
+  }
+
+  input {
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 5px 10px;
+    width: 180px;
+  }
+
+  nav ul li a {
+    font-size: 13px;
+  }
 }
