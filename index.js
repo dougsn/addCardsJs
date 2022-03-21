@@ -34,6 +34,7 @@ btnCriar.addEventListener("click", (e) => {
     divCard.appendChild(h5);
 
     // Descrição do card
+    
     let p = document.createElement("p");
     p.setAttribute("class", "card-text");
     p.innerText = `${descriptionInput.value}`;
