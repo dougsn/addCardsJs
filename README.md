@@ -4,7 +4,7 @@ O objetivo do Projeto é a criação de cards dinamico de acordo com o preenchim
 
 Integrantes:
 
-Dougla Nascimento: Responsável pela criação da página principal, estilização e responsividade da página principal e o JavaScript da págin principal.
+Dougla Nascimento: Responsável pela criação, estilização e JavaScript da página principal.
 
 Vinicius  Almeida: Responsável pela integração da página principa e a de Moldes, criação do HTML5, CSS3 e JavaScript da página de moldes.
 
