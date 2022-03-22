@@ -8,4 +8,4 @@ Douglas Nascimento: Responsável pela criação, estilização e JavaScript da p
 
 Vinicius  Almeida: Responsável pela integração da página principal e a de Moldes, criação do HTML5, CSS3, JavaScript da página de moldes e responsividade da página de moldes.
 
-Isabela Wagner:
+Isabela Wagner: Responsável pelo efeito no botão da página de Moldes e na alteração do tamanho das imagens.
