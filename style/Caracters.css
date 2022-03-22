@@ -171,3 +171,10 @@ height: 30px;
  border-radius: 5px;
  padding: 2px;
 }
+button:hover {
+  height: 40px;
+  width: 110px;
+}
+p {
+  margin-bottom: 5px;
+}

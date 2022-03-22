@@ -335,7 +335,8 @@ card1.addEventListener("click", (e) => {
   e.preventDefault();
 
   let footer = document.getElementById("footer");
-  let imagemCard = document.createElement("img");
+  let imagemCard = document.createElement("img");  
+  imagemCard.style.width = '350px'
 
   imagemCard.setAttribute("src", "./img/kanye.png");
   footer.appendChild(imagemCard);
@@ -347,6 +348,9 @@ card2.addEventListener("click", (e) => {
 
   let footer = document.getElementById("footer");
   let imagemCard = document.createElement("img");
+  imagemCard.style.width = '350px'
+ 
+
 
   imagemCard.setAttribute("src", "./img/kid.png");
   footer.appendChild(imagemCard);
@@ -372,6 +376,9 @@ card4.addEventListener("click", (e) => {
   let footer = document.getElementById("footer");
   let imagemCard = document.createElement("img");
 
+  imagemCard.style.width = '230px'
+
+
   imagemCard.setAttribute("src", "./img/donda.png");
   footer.appendChild(imagemCard);
 });
@@ -382,7 +389,10 @@ card5.addEventListener("click", (e) => {
 
   let footer = document.getElementById("footer");
   let imagemCard = document.createElement("img");
-
+  imagemCard.style.width = '170px'
+  
   imagemCard.setAttribute("src", "./img/kanyewest.png");
   footer.appendChild(imagemCard);
 });
+
+
